@@ -5,13 +5,11 @@ import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import androidx.lifecycle.viewmodel.compose.viewModel
 import com.plcoding.cryptocurrencyappyt.common.Resource
 import com.plcoding.cryptocurrencyappyt.domain.use_case.get_coins.GetCoinsUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
-import kotlinx.coroutines.flow.onEmpty
 import javax.inject.Inject
 
 @HiltViewModel
