@@ -28,7 +28,7 @@ import com.plcoding.cryptocurrencyappyt.presentation.coin_detail.components.Coin
 import com.plcoding.cryptocurrencyappyt.presentation.coin_detail.components.TeamListItem
 
 @Composable
-fun CoinListScreen(
+fun CoinDetailScreen(
     viewModel: CoinDetailViewModel = hiltViewModel()
 ) {
     val state = viewModel.state.value
